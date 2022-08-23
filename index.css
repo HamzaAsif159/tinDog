@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 720px;
+    width: 400px;
+    background-color: #256D85;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header img {
+    height: 40px;
+}
+
+
+section img {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.data {
+    position: absolute;
+    top: 70%;;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    line-height: 2.2rem
+}
+
+#bio {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+    width: 350px;
+}
+
+#name {
+    font-weight: 700;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.icons {
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 50%
+}
+
+.icons:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.badge {
+    position: absolute;    
+    color: red;
+    font-weight: 700;
+    top: 18%;
+    margin-left: 10px;
+    font-size: 50px;
+    border: 6px solid red;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    rotate: 10deg;
+    display: none;
+}
+
+#like {
+    color: #5BB318 !important;
+    border: 6px solid #5BB318 !important;
+}
+
+#end-message {
+    color: #FF9551;
+}
